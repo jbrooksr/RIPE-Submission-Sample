@@ -12,7 +12,7 @@ set excelxlsxlargefile on
 //     FILE PATHS
 // =============================================================================
 
-global ROOT		"C:\Users\Joel\Downloads\RIPE Analysis"
+global ROOT		"..."
 global DATA 	"$ROOT\Data"
 global OUTPUT	"$ROOT\Output"
 
