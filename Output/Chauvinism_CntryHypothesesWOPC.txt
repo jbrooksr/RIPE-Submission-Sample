@@ -1,0 +1,24 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	Baseline	Income Effects	Justice Effects	Immigration Attitude Effects
+					
+imwbcntcl	Effect of Immigration				-0.107***
+					(0.024)
+dfincaccl	Consequentialism			-0.046	-0.049
+				(0.081)	(0.063)
+smdfslvcl	Egalitarianism			-0.226	-0.114
+				(0.138)	(0.078)
+log_gdp	log(National Income (GDP))		-0.279*	-0.342**	-0.146
+			(0.144)	(0.148)	(0.106)
+soc_gdp_2016	Social Spending (% of GDP)	-0.007	-0.009	-0.011*	-0.014***
+		(0.005)	(0.006)	(0.006)	(0.004)
+pforeign	Foreign Population (%)	-0.005	0.001	0.003	-0.002
+		(0.004)	(0.005)	(0.004)	(0.003)
+post_comm	Post Communist Indicator	0.196***	0.096	0.051	-0.071
+		(0.059)	(0.062)	(0.069)	(0.063)
+Constant	Constant	0.790***	3.798**	5.469**	3.669***
+		(0.139)	(1.555)	(2.001)	(1.193)
+					
+Observations		20	20	20	20
+R-squared		0.582	0.666	0.706	0.881
+Robust standard errors in parentheses					
+*** p<0.01, ** p<0.05, * p<0.1					
